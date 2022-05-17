@@ -4,6 +4,7 @@ resource "aws_instance" "ec2demo" {
   key_name  = "demokey"
   tags      = {
     Name = "demoserver"
+    Dept ="IT"
   }
 }
 

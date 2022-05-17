@@ -3,7 +3,7 @@ resource "aws_instance" "ec2demo" {
   instance_type = var.instance_type
   key_name  = "demokey"
   tags      = {
-    Name = "webserver"
+    Name = "demoserver"
   }
 }
 
